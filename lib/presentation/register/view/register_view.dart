@@ -308,14 +308,15 @@ class _RegisterViewState extends State<RegisterView> {
       child: Row(
         mainAxisAlignment: MainAxisAlignment.spaceBetween,
         children: [
-          Flexible(child: Text(AppStrings.profilePicture)),
+          Flexible(flex: 4, child: Text(AppStrings.profilePicture.tr())),
           Flexible(
+              flex: 1,
               child: StreamBuilder<File>(
                   stream: _viewModel.outIsProfilePicture,
                   builder: (context, snapshot) {
                     return _imagePickedByUser(snapshot.data);
                   })),
-          Flexible(child: SvgPicture.asset(ImageAssets.photoCameraIc))
+          Flexible(flex: 2, child: SvgPicture.asset(ImageAssets.photoCameraIc))
         ],
       ),
     );

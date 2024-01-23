@@ -25,10 +25,10 @@ class AppStrings {
   static const String mobileNumberInvalid =
       "Mobile number should be at least 10 digits";
   static const String passwordInvalid = "invalid_password";
-  static const String alreadyHaveAccount = "already_have_accountn";
+  static const String alreadyHaveAccount = "already_have_account";
   static const register = "register";
   static const mobileNumber = "mobile_number_hint";
-  static const profilePicture = "upload_profile_pictuSearchre";
+  static const profilePicture = "upload_profile_picture";
   static const photoGallery = "photo_gallery";
   static const photoCamera = "camera";
   static const home = "home";

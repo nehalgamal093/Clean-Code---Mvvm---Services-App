@@ -55,5 +55,6 @@
   "contact_us": "Contact Us",
   "invite_your_friends": "Invite Your Friends",
   "logout": "Logout",
-  "reset_password": "Reset Password"
+  "reset_password": "Reset Password",
+  "upload_profile_picture":"Upload Profile Picture"
 }

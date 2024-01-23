@@ -5,6 +5,7 @@ import 'package:ecommerce_mvvm/presentation/main/pages/search/search_page.dart';
 import 'package:ecommerce_mvvm/presentation/main/pages/settings/settings_page.dart';
 import 'package:flutter/material.dart';
 
+import '../resources/assets_manager.dart';
 import '../resources/color_manager.dart';
 import '../resources/strings_manager.dart';
 import '../resources/values_manager.dart';
@@ -52,14 +53,17 @@ class _MainViewState extends State<MainView> {
             onTap: onTap,
             items: [
               BottomNavigationBarItem(
-                  icon: Icon(Icons.home_outlined), label: AppStrings.home.tr()),
+                  icon: ImageIcon(AssetImage(ImageAssets.homeIc)),
+                  label: AppStrings.home.tr()),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.search), label: AppStrings.search.tr()),
+                  icon: ImageIcon(AssetImage(ImageAssets.searchIc)),
+                  label: AppStrings.search.tr()),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.notifications_outlined),
+                  icon: ImageIcon(AssetImage(ImageAssets.notificationsIc)),
                   label: AppStrings.notifications),
               BottomNavigationBarItem(
-                  icon: Icon(Icons.settings), label: AppStrings.settings.tr()),
+                  icon: ImageIcon(AssetImage(ImageAssets.settingsIc)),
+                  label: AppStrings.settings.tr()),
             ]),
       ),
     );
