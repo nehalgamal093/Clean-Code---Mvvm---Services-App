@@ -1,16 +1,28 @@
-# ecommerce_mvvm
+# Mvvm Architecture
 
-A new Flutter project.
+Flutter application using clean code.
+Data Layer, Domain Layer, Presentation Layer, App Layer
+Streams.
 
-## Getting Started
 
-This project is a starting point for a Flutter application.
+## Packages
 
-A few resources to get you started if this is your first Flutter project:
+### Dio
+### Easy_Localization
+### Shared Preferences
+### Dio
+### Retrofit
+### JSON_SERIALIZABLE
+### Flutter Svg
+###  Analyzer
+### Dartz
+### Internet Connection Checker
+### Pretty Dio Logger
+### Get It
+### Image Picker
+### RX dart
+### Carousel Slider
+### Easy Localization
+### Flutter Phoenix
+  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
